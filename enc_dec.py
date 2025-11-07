@@ -97,7 +97,8 @@ def decrypt_file(in_path: str, out_path: str, password: str):
                 raise e
 
 if __name__=='__main__':
-    pw = generate_password()  # give this to the user securely
-    # encrypt_file(r"/home/test/Personal_Project/Encrypt_it/Bug Hunt AI Demo by Dinesh copy.mov", "input.mov.enc", pw)
+    pass
+    # pw = generate_password()  # give this to the user securely
+    # encrypt_file(r"input_mov", "input.mov.enc", pw)
     # print("Password to decrypt:", pw)
-    decrypt_file("input.mov.enc", "input_decrypted.mp4", "3jDpOVWfUs8kq1X8Iog1wFYK_GX4qsowDJOXP6OnpVQ")
+    # decrypt_file("input.mov.enc", "input_decrypted.mp4", "3jDpOVWfUs8kq1X8Iog1wFYK_GX4qsowDJOXP6OnpVQ")
